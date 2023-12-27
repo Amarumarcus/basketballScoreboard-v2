@@ -1,0 +1,53 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Bascketball scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div class="container">
+<!-- Home section------------------------------------------------------------------------------- -->
+            <div>
+                <h3>HOME</h3>
+                <div id="slider-el">
+                    <button class="slider-btn" id="prev-btn-h"><</button>
+                    <div class="img-holder">
+                    <img src="images/washington-wizards.png" alt="team-logo" id="teamLogoH">
+                    </div>
+                    <button class="slider-btn" id="next-btn-h">></button>
+                </div>
+                <p class="score" id="score-h">0</p>
+                <button class="scoreBtn" id="3pointsHome">+3</button>
+                <button class="scoreBtn" id="2pointsHome">+2</button>
+                <button class="scoreBtn" id="1pointsHome">+1</button>
+            </div>
+<!-- Time section------------------------------------------------------------------------------ --> 
+            <div>
+                <h3>TIME</h3>
+                <p id="timer">12:00</p>
+                <div id="start-stop-container">
+                    <button class="start-stop-btn" id="start-btn">START</button>
+                    <button class="start-stop-btn" id="stop-btn">STOP</button>
+                </div>
+                <img src="images/espn.png" id="espn-logo">
+            </div>
+<!-- Guest section----------------------------------------------------------------------------- -->            <div>
+                <h3>GUEST</h3>
+                <div id="slider-el">
+                    <button class="slider-btn" id="prev-btn-g"><</button>
+                    <div class="img-holder">
+                        <img src="images/washington-wizards.png" alt="team-logo" id="teamLogoG">
+                    </div>
+                    <button class="slider-btn" id="next-btn-g">></button>
+                </div>
+                <p class="score" id="score-g">0</p>
+                <button class="scoreBtn" id="3pointsGuest">+3</button>
+                <button class="scoreBtn" id="2pointsGuest">+2</button>
+                <button class="scoreBtn" id="1pointsGuest">+1</button>
+            </div>
+<!-- ------------------------------------------------------------------------------------------ -->        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
