@@ -1,8 +1,12 @@
 body {
-    margin: 10px 20px;
+    margin: 1vw 3vw;
     text-align: center;
     background-color: #1A1A1A;
     color: gray;
+}
+
+h3 {
+    font-size: 3vw;
 }
 
 .container {
@@ -11,8 +15,8 @@ body {
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 1vw auto;
+    padding: 2vw;
     background-color: #1A1A1A; 
     box-shadow: inset 0px 0px 15px 15px #1A1A1A;
     border-radius: 10px;
@@ -35,7 +39,7 @@ body {
 
 .slider-btn {
     height: 20vw;
-    width: 30px;
+    width: 3vw;
     background: transparent;
     color: whitesmoke;
     border-style: none;
@@ -58,19 +62,19 @@ body {
 .score {
     font-size: 7vw;
     font-weight: bolder;
-    margin: 5px 0px 20px 0px;
+    margin: 1vw 0vw 2vw 0vw;
     border: none;
 }
 
 .scoreBtn {
-    padding: 5px 10px;
+    padding: 1vw 1.5vw;
     font-size: 3vw;
     font-weight: bold;
     color: gray;
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
     background-color: #101010;
 }
 
@@ -91,23 +95,23 @@ body {
 #timer {
     font-size: 3vw;
     font-weight: bolder;
-    margin: 10px 0px 20px 0px;
+    margin: 1vw 0vw 3vw 0vw;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     box-shadow: 0px 3px 5px black, 0px -3px 5px black;
-    padding: 3px 15px;
+    padding: 1vw 2vw;
     border-radius: 5px;
 }
 
 .start-stop-btn {
-    padding: 5px 10px;
+    padding: 1vw 2vw;
     font-size: 2vw;
     font-weight: bold;
     color: gray;
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 1vw;
     background-color: #101010;
 }
 
@@ -140,5 +144,5 @@ button[disabled]{
 
 #espn-logo{
     width: 10vw;
-    margin-top: 100px;
+    margin-top: 10vw;
 }
